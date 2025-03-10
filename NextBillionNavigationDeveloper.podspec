@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.authors             = { "qiuyu" => "qiuyu@nextbillion.ai", "qiu" => "zhengshen@nextbillion.ai" }
   spec.source       = { :git => "https://github.com/nextbillion-ai/nextbillion-navigation-ios-developer.git" }
 
-  spec.vendored_frameworks = '*.framework'
+  spec.vendored_frameworks = '*.xcframework'
   spec.platform     = :ios, '12.0'
   spec.swift_versions = ['5.0']
   spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }

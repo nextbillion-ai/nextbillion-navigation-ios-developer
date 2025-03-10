@@ -1,0 +1,441 @@
+{
+  "status": "ok",
+  "routes": [{
+    "geometry": "mxcpA{eq_eEMu@cAaC{B{F{NqWcDuHqBqDo@eBw@iDCyDEkFQ{E]mEbFoBn^kKlEgA~E_AvF}@hCWvCMrCGrCB~CZhF~@|IvAbEVlBEzBs@bAc@vA{AvA_BbA_B~HiJtHyI|CsBfBi@rEa@pBIQkEJwDEiDj@aFz@iBj@mB~BqFrGcNcFyLmDqHeBaFcAcRUaH{@mK_B_So@cHaB}QE{DPaC|@qC`ByEpBwD~CmGrBcEbEgGjB_DlDkFdEoGrOnT",
+    "distance": 1018.8,
+    "duration": 212.9,
+    "start_location": {
+      "latitude": 1.329559,
+      "longitude": 103.81835
+    },
+    "end_location": {
+      "latitude": 1.326827,
+      "longitude": 103.824238
+    },
+    "legs": [{
+      "distance": {
+        "value": 1018
+      },
+      "duration": {
+        "value": 212
+      },
+      "start_location": {
+        "latitude": 1.329559,
+        "longitude": 103.81835
+      },
+      "end_location": {
+        "latitude": 1.326827,
+        "longitude": 103.824238
+      },
+      "steps": [{
+        "geometry": "mxcpA{eq_eEMu@cAaC{B{F{NqWcDuHqBqDo@eBw@iDCyDEkFQ{E]mE",
+        "start_location": {
+          "latitude": 1.329559,
+          "longitude": 103.81835
+        },
+        "end_location": {
+          "latitude": 1.330136,
+          "longitude": 103.819765
+        },
+        "distance": {
+          "value": 173
+        },
+        "duration": {
+          "value": 36
+        },
+        "maneuver": {
+          "instruction": "",
+          "voice_instruction": [],
+          "bearing_before": 0,
+          "bearing_after": 75,
+          "coordinate": {
+            "latitude": 1.329559,
+            "longitude": 103.81835
+          },
+          "maneuver_type": "depart"
+        },
+        "name": "University Road",
+        "intersections": [{
+          "location": {
+            "latitude": 1.329559,
+            "longitude": 103.81835
+          },
+          "bearings": [75],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 0,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.329566,
+            "longitude": 103.818377
+          },
+          "bearings": [60, 150, 255, 330],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.329916,
+            "longitude": 103.818961
+          },
+          "bearings": [60, 150, 240],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 0,
+          "lanes": []
+        }],
+        "road_shield_type": {}
+      }, {
+        "geometry": "o|dpAi~s_eEbFoBn^kKlEgA~E_AvF}@hCWvCMrCGrCB~CZhF~@|IvAbEVlBEzBs@bAc@vA{AvA_BbA_B~HiJtHyI|CsBfBi@rEa@pBI",
+        "start_location": {
+          "latitude": 1.330136,
+          "longitude": 103.819765
+        },
+        "end_location": {
+          "latitude": 1.327534,
+          "longitude": 103.820681
+        },
+        "distance": {
+          "value": 326
+        },
+        "duration": {
+          "value": 68
+        },
+        "maneuver": {
+          "instruction": "Instruction item for testing",
+          "voice_instruction": [],
+          "bearing_before": 85,
+          "bearing_after": 156,
+          "coordinate": {
+            "latitude": 1.330136,
+            "longitude": 103.819765
+          },
+          "maneuver_type": "end of road",
+          "modifier": "right"
+        },
+        "name": "Banner instruction for testing",
+        "intersections": [{
+          "location": {
+            "latitude": 1.330136,
+            "longitude": 103.819765
+          },
+          "bearings": [150, 270, 345],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 1,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.328143,
+            "longitude": 103.820226
+          },
+          "bearings": [30, 135, 300],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 1,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.327983,
+            "longitude": 103.820407
+          },
+          "bearings": [135, 240, 315],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.327749,
+            "longitude": 103.820638
+          },
+          "bearings": [75, 165, 315],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 1,
+          "lanes": []
+        }],
+        "road_shield_type": {}
+      }, {
+        "geometry": "{y_pAqwu_eEQkEJwDEiDj@aFz@iBj@mB~BqFrGcN",
+        "start_location": {
+          "latitude": 1.327534,
+          "longitude": 103.820681
+        },
+        "end_location": {
+          "latitude": 1.327264,
+          "longitude": 103.821544
+        },
+        "distance": {
+          "value": 103
+        },
+        "duration": {
+          "value": 21
+        },
+        "maneuver": {
+          "instruction": "Instruction item for testing",
+          "voice_instruction": [{
+            "distance_along_geometry": 320,
+            "unit": "meters",
+            "instruction": "In 320 meters, Turn left onto Trevose Crescent"
+          }, {
+            "distance_along_geometry": 200,
+            "unit": "meters",
+            "instruction": "In 200 meters, Turn left onto Trevose Crescent"
+          }, {
+            "distance_along_geometry": 50,
+            "unit": "meters",
+            "instruction": "Turn left onto Trevose Crescent"
+          }],
+          "bearing_before": 167,
+          "bearing_after": 88,
+          "coordinate": {
+            "latitude": 1.327534,
+            "longitude": 103.820681
+          },
+          "maneuver_type": "turn",
+          "modifier": "left"
+        },
+        "name": "Banner instruction for testing",
+        "intersections": [{
+          "location": {
+            "latitude": 1.327534,
+            "longitude": 103.820681
+          },
+          "bearings": [90, 180, 270, 345],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 3,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.32754,
+            "longitude": 103.82096
+          },
+          "bearings": [45, 105, 270],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 1,
+          "lanes": []
+        }],
+        "road_shield_type": {}
+      }, {
+        "geometry": "_i_pAomw_eEcFyLmDqHeBaFcAcRUaH{@mK_B_So@cHaB}QE{DPaC|@qC`ByEpBwD~CmGrBcEbEgGjB_DlDkFdEoG",
+        "start_location": {
+          "latitude": 1.327264,
+          "longitude": 103.821544
+        },
+        "end_location": {
+          "latitude": 1.327093,
+          "longitude": 103.824582
+        },
+        "distance": {
+          "value": 366
+        },
+        "duration": {
+          "value": 76
+        },
+        "maneuver": {
+          "instruction": "Turn left onto Merryn Road",
+          "voice_instruction": [{
+            "distance_along_geometry": 50,
+            "unit": "meters",
+            "instruction": "Turn left onto Merryn Road"
+          }],
+          "bearing_before": 119,
+          "bearing_after": 61,
+          "coordinate": {
+            "latitude": 1.327264,
+            "longitude": 103.821544
+          },
+          "maneuver_type": "turn",
+          "modifier": "left"
+        },
+        "name": "Merryn Road",
+        "intersections": [{
+          "location": {
+            "latitude": 1.327264,
+            "longitude": 103.821544
+          },
+          "bearings": [60, 120, 300],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.32755,
+            "longitude": 103.822337
+          },
+          "bearings": [75, 180, 270],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.327663,
+            "longitude": 103.823147
+          },
+          "bearings": [0, 75, 180, 255],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 3,
+          "intersection_out": 1,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.327626,
+            "longitude": 103.823791
+          },
+          "bearings": [30, 120, 300],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 1,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.327569,
+            "longitude": 103.823883
+          },
+          "bearings": [120, 210, 300],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 0,
+          "lanes": []
+        }, {
+          "location": {
+            "latitude": 1.327333,
+            "longitude": 103.824248
+          },
+          "bearings": [45, 120, 300],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 1,
+          "lanes": []
+        }],
+        "road_shield_type": {}
+      }, {
+        "geometry": "i~~oAkk}_eErOnT",
+        "start_location": {
+          "latitude": 1.327093,
+          "longitude": 103.824582
+        },
+        "end_location": {
+          "latitude": 1.326827,
+          "longitude": 103.824238
+        },
+        "distance": {
+          "value": 48
+        },
+        "duration": {
+          "value": 10
+        },
+        "maneuver": {
+          "instruction": "Turn right to stay on Merryn Road",
+          "voice_instruction": [{
+            "distance_along_geometry": 360,
+            "unit": "meters",
+            "instruction": "In 360 meters, Turn right to stay on Merryn Road"
+          }, {
+            "distance_along_geometry": 200,
+            "unit": "meters",
+            "instruction": "In 200 meters, Turn right to stay on Merryn Road"
+          }, {
+            "distance_along_geometry": 50,
+            "unit": "meters",
+            "instruction": "Turn right to stay on Merryn Road"
+          }],
+          "bearing_before": 125,
+          "bearing_after": 232,
+          "coordinate": {
+            "latitude": 1.327093,
+            "longitude": 103.824582
+          },
+          "maneuver_type": "continue",
+          "modifier": "right"
+        },
+        "name": "Merryn Road",
+        "intersections": [{
+          "location": {
+            "latitude": 1.327093,
+            "longitude": 103.824582
+          },
+          "bearings": [135, 225, 300],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 2,
+          "intersection_out": 1,
+          "lanes": []
+        }],
+        "road_shield_type": {}
+      }, {
+        "geometry": "um~oA{u|_eE",
+        "start_location": {
+          "latitude": 1.326827,
+          "longitude": 103.824238
+        },
+        "end_location": {
+          "latitude": 1.326827,
+          "longitude": 103.824238
+        },
+        "distance": {
+          "value": 0
+        },
+        "duration": {
+          "value": 0
+        },
+        "maneuver": {
+          "instruction": "You have arrived at Merryn Road",
+          "voice_instruction": [{
+            "distance_along_geometry": 50,
+            "unit": "meters",
+            "instruction": "You have arrived at Merryn Road"
+          }, {
+            "distance_along_geometry": 200,
+            "unit": "meters",
+            "instruction": "In 200 meters, You will arrive"
+          }],
+          "bearing_before": 232,
+          "bearing_after": 0,
+          "coordinate": {
+            "latitude": 1.326827,
+            "longitude": 103.824238
+          },
+          "maneuver_type": "arrive"
+        },
+        "name": "Merryn Road",
+        "intersections": [{
+          "location": {
+            "latitude": 1.326827,
+            "longitude": 103.824238
+          },
+          "bearings": [52],
+          "classes": [],
+          "entry": [],
+          "intersection_in": 0,
+          "intersection_out": 0,
+          "lanes": []
+        }],
+        "road_shield_type": {}
+      }]
+    }]
+  }],
+  "country_code": "SG"
+}

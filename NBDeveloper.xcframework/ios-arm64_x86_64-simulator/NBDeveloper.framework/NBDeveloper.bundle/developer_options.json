@@ -1,0 +1,272 @@
+[
+    {
+        "type": 3,
+        "attributeName": "Route simulation",
+        "translations": {
+            "en": "Route simulation",
+            "fr": "Simulation d'itinéraire",
+            "de": "Routensimulation",
+            "id": "Simulasi rute",
+            "zh": "路线模拟"
+        },
+        "preferenceKeyName": "KEY_SIMULATION_MODULE",
+        "boolValue": false
+    },
+    {
+        "type": 1,
+        "attributeName": "Route simulation driving speed",
+        "preferenceKeyName": "navigation_route_simulation_driving_speed",
+        "translations": {
+            "fr": "Vitesse de conduite en simulation",
+            "de": "Simulierte Fahrgeschwindigkeit",
+            "id": "Kecepatan mengemudi simulasi",
+            "zh": "模拟驾驶速度",
+            "en": "Route simulation driving speed"
+        },
+        "sliderValue": 45,
+        "stepSize": 1,
+        "from": 5,
+        "to": 100,
+        "unit": "km/h"
+    },
+    {
+        "type": 3,
+        "attributeName": "Snap to route",
+        "translations": {
+            "fr": "Accrochage à l'itinéraire",
+            "de": "An Route ausrichten",
+            "id": "Snap ke rute",
+            "zh": "路线吸附",
+            "en": "Snap to route"
+        },
+        "preferenceKeyName": "navigation_view_snap_enabled",
+        "boolValue": true
+    },
+    {
+        "type": 3,
+        "attributeName": "Enable Alternative routes",
+        "translations": {
+            "fr": "Activer les itinéraires alternatifs",
+            "de": "Alternative Routen aktivieren",
+            "id": "Aktifkan rute alternatif",
+            "zh": "启用备选路线",
+            "en": "Enable Alternative routes"
+        },
+        "preferenceKeyName": "navigation_alternative_routes_enabled",
+        "boolValue": true
+    },
+    {
+        "type": 3,
+        "attributeName": "Off route detection",
+        "translations": {
+            "fr": "Détection hors itinéraire",
+            "de": "Routenabweichungserkennung",
+            "id": "Deteksi keluar rute",
+            "zh": "偏航检测",
+            "en": "Off route detection"
+        },
+        "preferenceKeyName": "navigation_view_off_route_enabled",
+        "boolValue": true
+    },
+    {
+        "type": 3,
+        "attributeName": "Enable Snap Distance Tracker",
+        "translations": {
+            "fr": "Activer le suivi de distance d'accrochage",
+            "de": "Einrastdistanz-Tracker aktivieren",
+            "id": "Aktifkan pelacak jarak snap",
+            "zh": "启用吸附距离跟踪器",
+            "en": "Enable Snap Distance Tracker"
+        },
+        "preferenceKeyName": "navigation_enable_snap_distance_tracker",
+        "boolValue": true
+    },
+    {
+        "type": 3,
+        "attributeName": "Dissolved Route",
+        "translations": {
+            "fr": "Itinéraire dissous",
+            "de": "Aufgelöste Route",
+            "id": "Rute terurai",
+            "zh": "融合路线",
+            "en": "Dissolved Route"
+        },
+        "preferenceKeyName": "navigation_view_dissolved_route_enabled",
+        "boolValue": true
+    },
+    {
+        "type": 1,
+        "attributeName": "Rerouting Cooldown distance",
+        "translations": {
+            "fr": "Distance de temporisation avant recalcul",
+            "de": "Abkühlungsdistanz für Neuberechnung",
+            "id": "Jarak cooldown rute ulang",
+            "zh": "重新规划路线冷却距离",
+            "en": "Rerouting Cooldown distance"
+        },
+        "preferenceKeyName": "navigation_minimum_distance_before_rerouting",
+        "sliderValue": 50,
+        "stepSize": 1,
+        "from": 20,
+        "to": 60,
+        "unit": "m"
+    },
+    {
+        "type": 1,
+        "attributeName": "Rerouting Cooldown duration",
+        "translations": {
+            "fr": "Durée de temporisation avant recalcul",
+            "de": "Abkühlungszeit für Neuberechnung",
+            "id": "Durasi cooldown rute ulang",
+            "zh": "重新规划路线冷却时间",
+            "en": "Rerouting Cooldown duration"
+        },
+        "preferenceKeyName": "navigation_minimum_duration_before_rerouting",
+        "sliderValue": 3000,
+        "stepSize": 1000,
+        "from": 2000,
+        "to": 10000,
+        "unit": "ms"
+    },
+    {
+        "type": 1,
+        "attributeName": "Step bearing tolerance",
+        "translations": {
+            "fr": "Tolérance de cap par étape",
+            "de": "Kurstoleranz pro Schritt",
+            "id": "Toleransi arah langkah",
+            "zh": "步骤方位角容差",
+            "en": "Step bearing tolerance"
+        },
+        "preferenceKeyName": "navigation_max_turn_completion_offset",
+        "sliderValue": 30,
+        "stepSize": 1,
+        "from": 30,
+        "to": 60,
+        "unit": "\u00B0"
+    },
+    {
+        "type": 1,
+        "attributeName": "Maneuver radius",
+        "translations": {
+            "fr": "Rayon de manœuvre",
+            "de": "Manöverradius",
+            "id": "Radius manuver",
+            "zh": "操作半径",
+            "en": "Maneuver radius"
+        },
+        "preferenceKeyName": "navigation_maneuver_zone_radius",
+        "sliderValue": 40,
+        "unit": "m",
+        "stepSize": 1,
+        "from": 30,
+        "to": 50
+    },
+    {
+        "type": 3,
+        "attributeName": "Enable recording",
+        "translations": {
+            "fr": "Activer l'enregistrement",
+            "de": "Aufzeichnung aktivieren",
+            "id": "Aktifkan perekaman",
+            "zh": "启用记录",
+            "en": "Enable Recording"
+        },
+        "preferenceKeyName": "RECORD_SWITCH",
+        "boolValue": true
+    },
+    {
+        "type": 3,
+        "attributeName": "Enable Flexible API",
+        "translations": {
+            "fr": "Activer l'API Flexible",
+            "de": "Flexible API aktivieren",
+            "id": "Aktifkan API Flexible",
+            "zh": "启用 Flexible API",
+            "en": "Enable Flexible API"
+        },
+        "preferenceKeyName": "KeyVahallaEnable",
+        "boolValue": true
+    },
+    {
+        "type": 3,
+        "attributeName": "Enable Shortest Route Type \n (Default is Fastest)",
+        "translations": {
+            "fr": "Activer le type d'itinéraire le plus court \n (Par défaut le plus rapide)",
+            "de": "Kürzeste Route aktivieren \n (Standard ist schnellste)",
+            "id": "Aktifkan Rute Terpendek \n (Default adalah Tercepat)",
+            "zh": "启用最短路线类型 \n (默认为最快)",
+            "en": "Enable Shortest Route Type \n (Default is Fastest)"
+        },
+        "controlledBy": "KeyVahallaEnable",
+        "preferenceKeyName": "navigation_enable_shortest_route_type",
+        "boolValue": false
+    },
+    {
+        "type": 3,
+        "attributeName": "Navigation Camera",
+        "translations": {
+            "fr": "Caméra de navigation",
+            "de": "Navigationskamera",
+            "id": "Kamera navigasi",
+            "zh": "导航相机",
+            "en": "Navigation Camera"
+        },
+        "preferenceKeyName": "navigation_view_camera_configuration_enabled",
+        "boolValue": false
+    },
+    {
+        "type": 1,
+        "attributeName": "Max Camera Zoom",
+        "translations": {
+            "fr": "Zoom maximum",
+            "de": "Maximaler Zoom",
+            "id": "Zoom maksimal",
+            "zh": "最大缩放",
+            "en": "Max Zoom"
+        },
+        "preferenceKeyName": "navigation_max_camera_zoom",
+        "controlledBy": "navigation_view_camera_configuration_enabled",
+        "sliderValue": 17.1,
+        "stepSize": 0.1,
+        "from": 16,
+        "to": 22,
+        "unit": ""
+    },
+    {
+        "type": 1,
+        "attributeName": "Min Camera Zoom",
+        "translations": {
+            "fr": "Zoom minimum",
+            "de": "Minimaler Zoom",
+            "id": "Zoom minimal",
+            "zh": "最小缩放",
+            "en": "Min zoom"
+        },
+        "preferenceKeyName": "navigation_min_camera_zoom",
+        "controlledBy": "navigation_view_camera_configuration_enabled",
+        "sliderValue": 14.5,
+        "stepSize": 0.1,
+        "from": 10,
+        "to": 16,
+        "unit": ""
+    },
+    {
+        "type": 1,
+        "attributeName": "Default Camera pitch",
+        "translations": {
+            "de": "Standard-Kameraneigung",
+            "fr": "Inclinaison de la caméra par défaut",
+            "id": "Kemiringan kamera default",
+            "zh": "默认相机俯仰角",
+            "en": "Default Camera pitch"
+        },
+        "preferenceKeyName": "navigation_nav_default_camera_pitch",
+        "controlledBy": "navigation_view_camera_configuration_enabled",
+        "sliderValue": 32,
+        "stepSize": 1,
+        "from": 30,
+        "to": 80,
+        "unit": "\u00B0"
+    }
+]

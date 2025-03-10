@@ -1,0 +1,2511 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NBDeveloper",
+    "printedName": "NBDeveloper",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "NbmapNavigation",
+        "printedName": "NbmapNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DevLabel",
+        "printedName": "DevLabel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DevLabel",
+                "printedName": "NBDeveloper.DevLabel",
+                "usr": "c:@M@NBDeveloper@objc(cs)DevLabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)DevLabel(im)initWithFrame:",
+            "mangledName": "$s11NBDeveloper8DevLabelC5frameACSo6CGRectV_tcfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBDeveloper.DevLabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DevLabel",
+                    "printedName": "NBDeveloper.DevLabel",
+                    "usr": "c:@M@NBDeveloper@objc(cs)DevLabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)DevLabel(im)initWithCoder:",
+            "mangledName": "$s11NBDeveloper8DevLabelC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NBDeveloper@objc(cs)DevLabel",
+        "mangledName": "$s11NBDeveloper8DevLabelC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UILabel",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UILabel",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DevContentView",
+        "printedName": "DevContentView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DevContentView",
+                "printedName": "NBDeveloper.DevContentView",
+                "usr": "c:@M@NBDeveloper@objc(cs)DevContentView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)DevContentView(im)initWithFrame:",
+            "mangledName": "$s11NBDeveloper14DevContentViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBDeveloper.DevContentView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DevContentView",
+                    "printedName": "NBDeveloper.DevContentView",
+                    "usr": "c:@M@NBDeveloper@objc(cs)DevContentView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)DevContentView(im)initWithCoder:",
+            "mangledName": "$s11NBDeveloper14DevContentViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NBDeveloper@objc(cs)DevContentView",
+        "mangledName": "$s11NBDeveloper14DevContentViewC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DevStyleMode",
+        "printedName": "DevStyleMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isDarkMode",
+            "printedName": "isDarkMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NBDeveloper12DevStyleModeC06isDarkD0SbvpZ",
+            "mangledName": "$s11NBDeveloper12DevStyleModeC06isDarkD0SbvpZ",
+            "moduleName": "NBDeveloper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper12DevStyleModeC06isDarkD0SbvgZ",
+                "mangledName": "$s11NBDeveloper12DevStyleModeC06isDarkD0SbvgZ",
+                "moduleName": "NBDeveloper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper12DevStyleModeC06isDarkD0SbvsZ",
+                "mangledName": "$s11NBDeveloper12DevStyleModeC06isDarkD0SbvsZ",
+                "moduleName": "NBDeveloper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper12DevStyleModeC06isDarkD0SbvMZ",
+                "mangledName": "$s11NBDeveloper12DevStyleModeC06isDarkD0SbvMZ",
+                "moduleName": "NBDeveloper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11NBDeveloper12DevStyleModeC",
+        "mangledName": "$s11NBDeveloper12DevStyleModeC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeveloperOptionsViewController",
+        "printedName": "DeveloperOptionsViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegete",
+            "printedName": "delegete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any NBDeveloper.RecordToolDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordToolDelegate",
+                    "printedName": "any NBDeveloper.RecordToolDelegate",
+                    "usr": "s:11NBDeveloper18RecordToolDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvp",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvp",
+            "moduleName": "NBDeveloper",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NBDeveloper.RecordToolDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordToolDelegate",
+                        "printedName": "any NBDeveloper.RecordToolDelegate",
+                        "usr": "s:11NBDeveloper18RecordToolDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvg",
+                "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvg",
+                "moduleName": "NBDeveloper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NBDeveloper.RecordToolDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordToolDelegate",
+                        "printedName": "any NBDeveloper.RecordToolDelegate",
+                        "usr": "s:11NBDeveloper18RecordToolDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvs",
+                "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvs",
+                "moduleName": "NBDeveloper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvM",
+                "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC8delegeteAA18RecordToolDelegate_pSgvM",
+                "moduleName": "NBDeveloper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)viewDidLoad",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC11viewDidLoadyyF",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeveloperOptionsViewController",
+                "printedName": "NBDeveloper.DeveloperOptionsViewController",
+                "usr": "c:@M@NBDeveloper@objc(cs)DeveloperOptionsViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBDeveloper.DeveloperOptionsViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeveloperOptionsViewController",
+                    "printedName": "NBDeveloper.DeveloperOptionsViewController",
+                    "usr": "c:@M@NBDeveloper@objc(cs)DeveloperOptionsViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)initWithCoder:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
+            "moduleName": "NBDeveloper",
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC05tableD0_12cellForRowAtSo07UITableD4CellCSo0kD0C_10Foundation9IndexPathVtF",
+            "moduleName": "NBDeveloper",
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeveloperSwitcherChanged",
+            "printedName": "onDeveloperSwitcherChanged(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper30DeveloperOptionsViewControllerC02onB15SwitcherChanged5valueySb_tF",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC02onB15SwitcherChanged5valueySb_tF",
+            "moduleName": "NBDeveloper",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:viewForFooterInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)tableView:viewForFooterInSection:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC05tableD0_22viewForFooterInSectionSo6UIViewCSgSo07UITableD0C_SitF",
+            "moduleName": "NBDeveloper",
+            "objc_name": "tableView:viewForFooterInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:heightForFooterInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)tableView:heightForFooterInSection:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC05tableD0_24heightForFooterInSection12CoreGraphics7CGFloatVSo07UITableD0C_SitF",
+            "moduleName": "NBDeveloper",
+            "objc_name": "tableView:heightForFooterInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:didSelectRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NBDeveloper@objc(cs)DeveloperOptionsViewController(im)tableView:didSelectRowAtIndexPath:",
+            "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC05tableD0_14didSelectRowAtySo07UITableD0C_10Foundation9IndexPathVtF",
+            "moduleName": "NBDeveloper",
+            "objc_name": "tableView:didSelectRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NBDeveloper@objc(cs)DeveloperOptionsViewController",
+        "mangledName": "$s11NBDeveloper30DeveloperOptionsViewControllerC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DeveloperSwitcherDelegate",
+            "printedName": "DeveloperSwitcherDelegate",
+            "usr": "s:11NBDeveloper25DeveloperSwitcherDelegateP",
+            "mangledName": "$s11NBDeveloper25DeveloperSwitcherDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapNavigation",
+        "printedName": "NbmapNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapNavigation",
+        "printedName": "NbmapNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomStyle",
+        "printedName": "CustomStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomStyle",
+                "printedName": "NBDeveloper.CustomStyle",
+                "usr": "c:@M@NBDeveloper@objc(cs)CustomStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBDeveloper@objc(cs)CustomStyle(im)init",
+            "mangledName": "$s11NBDeveloper11CustomStyleCACycfc",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "apply",
+            "printedName": "apply()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NBDeveloper@objc(cs)CustomStyle(im)apply",
+            "mangledName": "$s11NBDeveloper11CustomStyleC5applyyyF",
+            "moduleName": "NBDeveloper",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "apply",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NBDeveloper@objc(cs)CustomStyle",
+        "mangledName": "$s11NBDeveloper11CustomStyleC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@NbmapNavigation@objc(cs)NBDayStyle",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NbmapNavigation.DayStyle",
+          "NbmapNavigation.Style",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeveloperSwitcherDelegate",
+        "printedName": "DeveloperSwitcherDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onDeveloperSwitcherChanged",
+            "printedName": "onDeveloperSwitcherChanged(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper25DeveloperSwitcherDelegateP02onbC7Changed5valueySb_tF",
+            "mangledName": "$s11NBDeveloper25DeveloperSwitcherDelegateP02onbC7Changed5valueySb_tF",
+            "moduleName": "NBDeveloper",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBDeveloper.DeveloperSwitcherDelegate>",
+            "sugared_genericSig": "<Self where Self : NBDeveloper.DeveloperSwitcherDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11NBDeveloper25DeveloperSwitcherDelegateP",
+        "mangledName": "$s11NBDeveloper25DeveloperSwitcherDelegateP",
+        "moduleName": "NBDeveloper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeveloperOptionsModel",
+        "printedName": "DeveloperOptionsModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeveloperOptionsModel",
+                "printedName": "NBDeveloper.DeveloperOptionsModel",
+                "usr": "s:11NBDeveloper21DeveloperOptionsModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11NBDeveloper21DeveloperOptionsModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11NBDeveloper21DeveloperOptionsModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NBDeveloper",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper21DeveloperOptionsModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11NBDeveloper21DeveloperOptionsModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NBDeveloper",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11NBDeveloper21DeveloperOptionsModelV",
+        "mangledName": "$s11NBDeveloper21DeveloperOptionsModelV",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordToolDelegate",
+        "printedName": "RecordToolDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onTapRecordingSwitcher",
+            "printedName": "onTapRecordingSwitcher()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper18RecordToolDelegateP22onTapRecordingSwitcheryyF",
+            "mangledName": "$s11NBDeveloper18RecordToolDelegateP22onTapRecordingSwitcheryyF",
+            "moduleName": "NBDeveloper",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBDeveloper.RecordToolDelegate>",
+            "sugared_genericSig": "<Self where Self : NBDeveloper.RecordToolDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTapNavigationRecording",
+            "printedName": "onTapNavigationRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper18RecordToolDelegateP24onTapNavigationRecordingyyF",
+            "mangledName": "$s11NBDeveloper18RecordToolDelegateP24onTapNavigationRecordingyyF",
+            "moduleName": "NBDeveloper",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBDeveloper.RecordToolDelegate>",
+            "sugared_genericSig": "<Self where Self : NBDeveloper.RecordToolDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11NBDeveloper18RecordToolDelegateP",
+        "mangledName": "$s11NBDeveloper18RecordToolDelegateP",
+        "moduleName": "NBDeveloper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeveloperDataManager",
+        "printedName": "DeveloperDataManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configRouteLineDataSource",
+            "printedName": "configRouteLineDataSource()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBDeveloper.DeveloperOptionsModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeveloperOptionsModel",
+                    "printedName": "NBDeveloper.DeveloperOptionsModel",
+                    "usr": "s:11NBDeveloper21DeveloperOptionsModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper20DeveloperDataManagerC015configRouteLineC6SourceSayAA0B12OptionsModelVGyFZ",
+            "mangledName": "$s11NBDeveloper20DeveloperDataManagerC015configRouteLineC6SourceSayAA0B12OptionsModelVGyFZ",
+            "moduleName": "NBDeveloper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configNavOptionsDataSource",
+            "printedName": "configNavOptionsDataSource()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBDeveloper.DeveloperOptionsModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeveloperOptionsModel",
+                    "printedName": "NBDeveloper.DeveloperOptionsModel",
+                    "usr": "s:11NBDeveloper21DeveloperOptionsModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper20DeveloperDataManagerC016configNavOptionsC6SourceSayAA0bG5ModelVGyFZ",
+            "mangledName": "$s11NBDeveloper20DeveloperDataManagerC016configNavOptionsC6SourceSayAA0bG5ModelVGyFZ",
+            "moduleName": "NBDeveloper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configDevOptionsDataSource",
+            "printedName": "configDevOptionsDataSource()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBDeveloper.DeveloperOptionsModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeveloperOptionsModel",
+                    "printedName": "NBDeveloper.DeveloperOptionsModel",
+                    "usr": "s:11NBDeveloper21DeveloperOptionsModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper20DeveloperDataManagerC016configDevOptionsC6SourceSayAA0bG5ModelVGyFZ",
+            "mangledName": "$s11NBDeveloper20DeveloperDataManagerC016configDevOptionsC6SourceSayAA0bG5ModelVGyFZ",
+            "moduleName": "NBDeveloper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11NBDeveloper20DeveloperDataManagerC",
+        "mangledName": "$s11NBDeveloper20DeveloperDataManagerC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapNavigation",
+        "printedName": "NbmapNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NBDeveloperLauncher",
+        "printedName": "NBDeveloperLauncher",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NBDeveloperLauncher",
+                "printedName": "NBDeveloper.NBDeveloperLauncher",
+                "usr": "s:11NBDeveloper0A8LauncherC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NBDeveloper0A8LauncherC6sharedACvpZ",
+            "mangledName": "$s11NBDeveloper0A8LauncherC6sharedACvpZ",
+            "moduleName": "NBDeveloper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NBDeveloperLauncher",
+                    "printedName": "NBDeveloper.NBDeveloperLauncher",
+                    "usr": "s:11NBDeveloper0A8LauncherC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper0A8LauncherC6sharedACvgZ",
+                "mangledName": "$s11NBDeveloper0A8LauncherC6sharedACvgZ",
+                "moduleName": "NBDeveloper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NBDeveloperLauncher",
+                    "printedName": "NBDeveloper.NBDeveloperLauncher",
+                    "usr": "s:11NBDeveloper0A8LauncherC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper0A8LauncherC6sharedACvsZ",
+                "mangledName": "$s11NBDeveloper0A8LauncherC6sharedACvsZ",
+                "moduleName": "NBDeveloper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NBDeveloper0A8LauncherC6sharedACvMZ",
+                "mangledName": "$s11NBDeveloper0A8LauncherC6sharedACvMZ",
+                "moduleName": "NBDeveloper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getRouteLineStyleVC",
+            "printedName": "getRouteLineStyleVC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper0A8LauncherC19getRouteLineStyleVCSo16UIViewControllerCyF",
+            "mangledName": "$s11NBDeveloper0A8LauncherC19getRouteLineStyleVCSo16UIViewControllerCyF",
+            "moduleName": "NBDeveloper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNavViewStyleVC",
+            "printedName": "getNavViewStyleVC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper0A8LauncherC17getNavViewStyleVCSo16UIViewControllerCyF",
+            "mangledName": "$s11NBDeveloper0A8LauncherC17getNavViewStyleVCSo16UIViewControllerCyF",
+            "moduleName": "NBDeveloper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeveloperOptionsVC",
+            "printedName": "getDeveloperOptionsVC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NBDeveloper0A8LauncherC21getDeveloperOptionsVCSo16UIViewControllerCyF",
+            "mangledName": "$s11NBDeveloper0A8LauncherC21getDeveloperOptionsVCSo16UIViewControllerCyF",
+            "moduleName": "NBDeveloper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11NBDeveloper0A8LauncherC",
+        "mangledName": "$s11NBDeveloper0A8LauncherC",
+        "moduleName": "NBDeveloper",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapNavigation",
+        "printedName": "NbmapNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapNavigation",
+        "printedName": "NbmapNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/NavigationStyle\/Styles.swift",
+      "kind": "BooleanLiteral",
+      "offset": 253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperSliderCell.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 21,
+      "value": "\"DeveloperSliderCell\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/DeveloperOptions\/DeveloperOptionsViewController.swift",
+      "kind": "Array",
+      "offset": 227,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/DeveloperOptions\/DeveloperOptionsViewController.swift",
+      "kind": "Array",
+      "offset": 280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/DeveloperOptions\/DeveloperOptionsViewController.swift",
+      "kind": "Array",
+      "offset": 382,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperSwitchTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 19,
+      "value": "\"SwitcherTableCell\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/BaseViewController.swift",
+      "kind": "Array",
+      "offset": 296,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/BaseViewController.swift",
+      "kind": "Array",
+      "offset": 357,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 29,
+      "value": "\"navigation_view_route_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 36,
+      "value": "\"navigation_view_route_shield_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 33,
+      "value": "\"navigation_maneuver_arrow_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 40,
+      "value": "\"navigation_maneuver_arrow_border_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 29,
+      "value": "\"navigation_view_route_scale\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 35,
+      "value": "\"navigation_view_banner_background\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 45,
+      "value": "\"navigation_view_banner_secondary_background\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 37,
+      "value": "\"navigation_view_banner_primary_text\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 39,
+      "value": "\"navigation_view_banner_secondary_text\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 41,
+      "value": "\"navigation_view_banner_maneuver_primary\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 49,
+      "value": "\"navigation_view_banner_maneuver_secondary_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1000,
+      "length": 33,
+      "value": "\"navigation_view_list_background\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1070,
+      "length": 30,
+      "value": "\"navigation_view_list_primary\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1139,
+      "length": 32,
+      "value": "\"navigation_view_list_secondary\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 39,
+      "value": "\"navigation_view_list_maneuver_primary\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 47,
+      "value": "\"navigation_view_list_maneuver_secondary_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 42,
+      "value": "\"navigation_view_bottom_banner_background\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1463,
+      "length": 42,
+      "value": "\"navigation_view_distance_remaining_label\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 38,
+      "value": "\"navigation_view_time_remaining_label\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
+      "length": 36,
+      "value": "\"navigation_view_arrival_time_label\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1688,
+      "length": 37,
+      "value": "\"navigation_view_overview_background\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 31,
+      "value": "\"navigation_view_overview_tint\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 40,
+      "value": "\"navigation_view_exit_button_background\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1900,
+      "length": 35,
+      "value": "\"navigation_view_exit_button_label\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1979,
+      "length": 38,
+      "value": "\"navigation_recentre_background_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 2051,
+      "length": 32,
+      "value": "\"navigation_recentre_info_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 2116,
+      "length": 31,
+      "value": "\"navigation_sound_button_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 2185,
+      "length": 42,
+      "value": "\"navigation_sound_button_background_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 43,
+      "value": "\"navigation_current_speed_background_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/CustomStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 37,
+      "value": "\"navigation_current_speed_text_color\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperOptionsModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperOptionsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 566,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperOptionsModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperOptionsModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 620,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/DeveloperOptionsModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/StyleCell\/RouteLineStyleCell.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 20,
+      "value": "\"RouteLineStyleCell\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/NBDeveloperLauncher.swift",
+      "kind": "Array",
+      "offset": 308,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/NavigationStyle\/NavigationStyleViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 258,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/RouteLine\/RouteLineStyleViewController.swift",
+      "kind": "Array",
+      "offset": 337,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/Extends\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/NavigationStyle\/NavigationOptionsViewController.swift",
+      "kind": "Array",
+      "offset": 230,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/NavigationStyle\/NavigationOptionsViewController.swift",
+      "kind": "Array",
+      "offset": 283,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/NavigationStyle\/NavigationOptionsViewController.swift",
+      "kind": "Array",
+      "offset": 385,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

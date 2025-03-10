@@ -1,0 +1,4 @@
+framework module NavigationDataRecordIOS {
+  header "NavigationDataRecordIOS-Swift.h"
+  requires objc
+}
