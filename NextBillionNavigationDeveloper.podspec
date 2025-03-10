@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   This is a iOS framework repository, users can integrate with Nextbillion iOS navigation developer through cocoaPods 
                    DESC
 
-  spec.homepage     = "https://github.com/nextbillion-ai/navigation-ios-developer"
+  spec.homepage     = "https://github.com/nextbillion-ai/nextbillion-navigation-ios-developer"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.authors             = { "qiuyu" => "qiuyu@nextbillion.ai", "qiu" => "zhengshen@nextbillion.ai" }
-  spec.source       = { :git => "https://github.com/nextbillion-ai/navigation-ios-developer.git" }
+  spec.source       = { :git => "https://github.com/nextbillion-ai/nextbillion-navigation-ios-developer.git" }
 
   spec.vendored_frameworks = '*.framework'
   spec.platform     = :ios, '12.0'
