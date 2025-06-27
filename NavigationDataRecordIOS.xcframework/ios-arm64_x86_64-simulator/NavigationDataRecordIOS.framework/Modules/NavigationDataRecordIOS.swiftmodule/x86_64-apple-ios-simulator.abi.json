@@ -2231,6 +2231,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MMKV",
         "printedName": "MMKV",
         "declKind": "Import",
@@ -3811,6 +3821,701 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ViewEventType",
+        "printedName": "ViewEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "TYPE_ROUTE",
+            "printedName": "TYPE_ROUTE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC10TYPE_ROUTESSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC10TYPE_ROUTESSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC10TYPE_ROUTESSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC10TYPE_ROUTESSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_LOCATION",
+            "printedName": "TYPE_LOCATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC13TYPE_LOCATIONSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC13TYPE_LOCATIONSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC13TYPE_LOCATIONSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC13TYPE_LOCATIONSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_SNAP_LOCATION",
+            "printedName": "TYPE_SNAP_LOCATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC18TYPE_SNAP_LOCATIONSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC18TYPE_SNAP_LOCATIONSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC18TYPE_SNAP_LOCATIONSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC18TYPE_SNAP_LOCATIONSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_SPOKEN",
+            "printedName": "TYPE_SPOKEN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC11TYPE_SPOKENSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC11TYPE_SPOKENSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC11TYPE_SPOKENSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC11TYPE_SPOKENSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_BANNER",
+            "printedName": "TYPE_BANNER",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC11TYPE_BANNERSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC11TYPE_BANNERSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC11TYPE_BANNERSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC11TYPE_BANNERSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_REROUTE_REQ",
+            "printedName": "TYPE_REROUTE_REQ",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC16TYPE_REROUTE_REQSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC16TYPE_REROUTE_REQSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC16TYPE_REROUTE_REQSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC16TYPE_REROUTE_REQSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_SUMMARY",
+            "printedName": "TYPE_SUMMARY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC12TYPE_SUMMARYSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC12TYPE_SUMMARYSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC12TYPE_SUMMARYSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC12TYPE_SUMMARYSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_REROUTE_RESP",
+            "printedName": "TYPE_REROUTE_RESP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC17TYPE_REROUTE_RESPSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC17TYPE_REROUTE_RESPSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC17TYPE_REROUTE_RESPSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC17TYPE_REROUTE_RESPSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_ALTERNATIVE_LOCATION",
+            "printedName": "TYPE_ALTERNATIVE_LOCATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC25TYPE_ALTERNATIVE_LOCATIONSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC25TYPE_ALTERNATIVE_LOCATIONSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC25TYPE_ALTERNATIVE_LOCATIONSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC25TYPE_ALTERNATIVE_LOCATIONSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_REROUTE",
+            "printedName": "TYPE_REROUTE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC12TYPE_REROUTESSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC12TYPE_REROUTESSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC12TYPE_REROUTESSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC12TYPE_REROUTESSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_REROUTE_RESPONSE",
+            "printedName": "TYPE_REROUTE_RESPONSE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC21TYPE_REROUTE_RESPONSESSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC21TYPE_REROUTE_RESPONSESSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC21TYPE_REROUTE_RESPONSESSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC21TYPE_REROUTE_RESPONSESSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_NAVIGATION_FINISHED",
+            "printedName": "TYPE_NAVIGATION_FINISHED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC24TYPE_NAVIGATION_FINISHEDSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC24TYPE_NAVIGATION_FINISHEDSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC24TYPE_NAVIGATION_FINISHEDSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC24TYPE_NAVIGATION_FINISHEDSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TYPE_REROUTE_ERROR",
+            "printedName": "TYPE_REROUTE_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC18TYPE_REROUTE_ERRORSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC18TYPE_REROUTE_ERRORSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC18TYPE_REROUTE_ERRORSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC18TYPE_REROUTE_ERRORSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS13ViewEventTypeC",
+        "mangledName": "$s23NavigationDataRecordIOS13ViewEventTypeC",
+        "moduleName": "NavigationDataRecordIOS",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -4552,7 +5257,7 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/utils\/MMKVDataUtil.swift",
       "kind": "StringLiteral",
-      "offset": 16741,
+      "offset": 16689,
       "length": 21,
       "value": "\"yyyy_MM_dd_HH_mm_ss\""
     },
@@ -4786,6 +5491,97 @@
       "offset": 3095,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 12,
+      "value": "\"TYPE_ROUTE\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 15,
+      "value": "\"TYPE_LOCATION\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 20,
+      "value": "\"TYPE_SNAP_LOCATION\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 13,
+      "value": "\"TYPE_SPOKEN\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 13,
+      "value": "\"TYPE_BANNER\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 18,
+      "value": "\"TYPE_REROUTE_REQ\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 14,
+      "value": "\"TYPE_SUMMARY\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 19,
+      "value": "\"TYPE_REROUTE_RESP\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 27,
+      "value": "\"TYPE_ALTERNATIVE_LOCATION\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 14,
+      "value": "\"TYPE_REROUTE\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 23,
+      "value": "\"TYPE_REROUTE_RESPONSE\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 26,
+      "value": "\"TYPE_NAVIGATION_FINISHED\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ViewEventType.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 20,
+      "value": "\"TYPE_REROUTE_ERROR\""
     }
   ]
 }

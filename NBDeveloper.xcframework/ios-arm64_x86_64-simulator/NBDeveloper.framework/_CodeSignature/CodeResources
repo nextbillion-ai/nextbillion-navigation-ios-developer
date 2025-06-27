@@ -6,11 +6,11 @@
 	<dict>
 		<key>DeveloperFooterView.nib/objects-14.0+.nib</key>
 		<data>
-		pRge3mt7VMs2JePjBVTU/wYwXi4=
+		3543ODGSqfiqvqHv1in3PqSC2lU=
 		</data>
 		<key>DeveloperFooterView.nib/runtime.nib</key>
 		<data>
-		3kqXwc3PYnG2G7SuYZfE6b5Xeos=
+		K9A5ffYPJ7qJsFD7s3wGsNRZ1o8=
 		</data>
 		<key>DeveloperSliderCell.nib</key>
 		<data>
@@ -30,15 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TnAL/aQQOUT42qN0E9H2oRsbxWM=
+		JQyaQOmnuqhANrUIUuySwP0AoOg=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		T08lpAnIJb/B+Dgsv1qBZFOX2fI=
+		9QrZ8IgkT6+SUo5rx1kNxabJoX4=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ssLNKH6OsgHFNKlkZLsYW+q5m0M=
+		DyZ+AxQx+UCKidYTUsJ6fY1GKhg=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Cu2UF68tlxLubYmmfHv1sqiC8zg=
+		FVMhjFrQEtuQkQcLcX3s70DP6JI=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		txWPVOVcYtD4rjFHOjPjxgjCZtM=
+		naXvv0bYfqK5rRLydflMUXCfzjQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>NBDeveloper.bundle/developer_options.json</key>
 		<data>
-		wRGjw5zfBPCUyULPUQMsajLXeW0=
+		8OCbAa+Um52bDS3QGgcfhh5mhAE=
 		</data>
 		<key>NBDeveloper.bundle/navigation_style.json</key>
 		<data>
@@ -168,14 +168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YlIfBMlOelYLwcHwmUtocx0imxtGz+WVdFgE8HYFn74=
+			nVKT5oFw9hMByD0zM/nym0n5SBQdcHc1X0Fbg8n37QA=
 			</data>
 		</dict>
 		<key>DeveloperFooterView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjG/f1wPB7+1frcjXPlfvo0og35tlZP4lcl1QXLnQxM=
+			fmMuuFpXK8f8mDP7h37VJ0Ty4eyBYCNCE/4fys/RQUY=
 			</data>
 		</dict>
 		<key>DeveloperSliderCell.nib</key>
@@ -210,14 +210,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kvYSh4GxElG3DwsWQE79yvt41gXJNzDG2rQ4Nquw7RE=
+			/WTULaikUnqt8yOmmpvrLh8HpfQ0LV5L3LVx+trbxCE=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bmkJ7xFp3kvHIMz+Blgk7Az53QuuYdo6R1+A2U9fWDI=
+			j5oUvoo7iXNVYbm2tymWqgVmkupzEau9BSyHSoqkgPk=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -252,7 +252,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ObCMlCv2pA5AnCosjVMYskVIsFKpvRfXufE7pDUZj8s=
+			J9BysZlBINckVa4ZBgXCJt6imri5m8HnVW4hXIxiluQ=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -287,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3C2yqr/flr5vJvSlxkhc8jreGiTb7l8v5JF6AU4aRY=
+			sllJMVtdoAgaDTuseYwVT42IY+S9I4ocmu1VMilvnys=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -301,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KRUUyOYcvz7xRUvVsjYPMwiQRRRLdFiD8OkIE00XT8g=
+			4BQoy/05OzqEZ11jToyDssfU3t1+5iNY/Md8HVfPvK0=
 			</data>
 		</dict>
 		<key>NBDeveloper.bundle/navigation_style.json</key>

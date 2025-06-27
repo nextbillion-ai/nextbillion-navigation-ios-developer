@@ -186,7 +186,7 @@
             "en": "Enable Flexible API"
         },
         "preferenceKeyName": "KeyVahallaEnable",
-        "boolValue": true
+        "boolValue": false
     },
     {
         "type": 3,

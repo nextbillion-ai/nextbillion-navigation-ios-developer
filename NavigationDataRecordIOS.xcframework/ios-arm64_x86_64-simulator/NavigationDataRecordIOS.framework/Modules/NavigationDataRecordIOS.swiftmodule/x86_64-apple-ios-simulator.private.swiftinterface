@@ -124,6 +124,22 @@ open class ReplayNavigationEventTracking : NbmapCoreNavigation.NavigationEventTr
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@_hasMissingDesignatedInitializers open class ViewEventType {
+  public static let TYPE_ROUTE: Swift.String
+  public static let TYPE_LOCATION: Swift.String
+  public static let TYPE_SNAP_LOCATION: Swift.String
+  public static let TYPE_SPOKEN: Swift.String
+  public static let TYPE_BANNER: Swift.String
+  public static let TYPE_REROUTE_REQ: Swift.String
+  public static let TYPE_SUMMARY: Swift.String
+  public static let TYPE_REROUTE_RESP: Swift.String
+  public static let TYPE_ALTERNATIVE_LOCATION: Swift.String
+  public static let TYPE_REROUTE: Swift.String
+  public static let TYPE_REROUTE_RESPONSE: Swift.String
+  public static let TYPE_NAVIGATION_FINISHED: Swift.String
+  public static let TYPE_REROUTE_ERROR: Swift.String
+  @objc deinit
+}
 public protocol NavigationDataUploadStateDelegate {
   func uploadSucce()
   func uploadFail(reason: Swift.String)
