@@ -2668,8 +2668,8 @@
       },
       {
         "kind": "Import",
-        "name": "Turf",
-        "printedName": "Turf",
+        "name": "NBTurf",
+        "printedName": "NBTurf",
         "declKind": "Import",
         "moduleName": "NavigationDataRecordIOS"
       },
@@ -5250,7 +5250,7 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/ui\/AnalysesViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 824,
+      "offset": 826,
       "length": 1,
       "value": "0"
     },

@@ -6,10 +6,10 @@ import CoreLocation
 import Foundation
 import MMKV
 import MapKit
+import NBTurf
 import NbmapCoreNavigation
 import NbmapNavigation
 import Swift
-import Turf
 import UIKit
 import _Concurrency
 import _StringProcessing
