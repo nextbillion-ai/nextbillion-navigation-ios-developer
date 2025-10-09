@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2j3HSz4Ye0o3w+Jyal/DZzUZ+pg=
+		LrdBIU9N1351T7uCon6YP3L8J+8=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		c46MCBkUObfQmQx1yY7n65S4BQE=
+		nsa+uOfM+j2mC9QwTdvt2Ba6uXQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -252,7 +252,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EfA10cVZ1SyfM5G1PvSwjif9302Kawu67bKGRJZR/HU=
+			Iu6/2Z/M8WUKP/XTlf2RPlxedYFdQ3TDUZns+RymbKY=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -287,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BsKGxLAQpDJQhf81NM+msdr4d58rwDABLbZfY/Waw8M=
+			58qPGEl698tHyOD+ZjsQDL1TNon+4dpBrt0PqJXXmDw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
