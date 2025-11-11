@@ -552,6 +552,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
         "kind": "TypeDecl",
         "name": "DeveloperOptionsViewController",
         "printedName": "DeveloperOptionsViewController",
@@ -1590,6 +1597,13 @@
       },
       {
         "kind": "Import",
+        "name": "NbmapCoreNavigation",
+        "printedName": "NbmapCoreNavigation",
+        "declKind": "Import",
+        "moduleName": "NBDeveloper"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2167,21 +2181,21 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/DeveloperOptions\/DeveloperOptionsViewController.swift",
       "kind": "Array",
-      "offset": 227,
+      "offset": 254,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/DeveloperOptions\/DeveloperOptionsViewController.swift",
       "kind": "Array",
-      "offset": 280,
+      "offset": 307,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NBDeveloper\/DeveloperOptions\/DeveloperOptionsViewController.swift",
       "kind": "Array",
-      "offset": 382,
+      "offset": 409,
       "length": 2,
       "value": "[]"
     },

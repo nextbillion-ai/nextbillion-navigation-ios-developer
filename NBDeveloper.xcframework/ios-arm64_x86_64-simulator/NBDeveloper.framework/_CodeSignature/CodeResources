@@ -34,15 +34,15 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		9QrZ8IgkT6+SUo5rx1kNxabJoX4=
+		f/NGN1UfjXB15aqwqi7WW8lrtHg=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		DyZ+AxQx+UCKidYTUsJ6fY1GKhg=
+		SKc+6O7yXO83qaNlJB03iSDi9LQ=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		J4JXG7y2OiUTpo/y7n5gT9QO83Q=
+		4SoM068DyV8uFxbyRTVdnEkVy8o=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LrdBIU9N1351T7uCon6YP3L8J+8=
+		HqT1VZzLCN4zuYLb3dRn1SvbgqI=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		J4JXG7y2OiUTpo/y7n5gT9QO83Q=
+		4SoM068DyV8uFxbyRTVdnEkVy8o=
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nsa+uOfM+j2mC9QwTdvt2Ba6uXQ=
+		5AnMDSl3vG3BNGDIFwNLoQHuBqY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,21 +210,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/WTULaikUnqt8yOmmpvrLh8HpfQ0LV5L3LVx+trbxCE=
+			mPUCZ3vJnsPYoR7/mqEI8TvpazS9+9oNtXk38QcFeFs=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j5oUvoo7iXNVYbm2tymWqgVmkupzEau9BSyHSoqkgPk=
+			TeEPFcoTxUFPJDJPg1whzGsVjbQi/qv3nAJxcefUPoQ=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjjvTtPoHgEbFhdzL/rzqYlbEy78nllnVA1t9O94xyU=
+			n+FccxzjAqs9inAuCY562mjW/jRrX8QFIJskJ2pr8P8=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -252,14 +252,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iu6/2Z/M8WUKP/XTlf2RPlxedYFdQ3TDUZns+RymbKY=
+			AlJP3k74vJFRm6/JxpGXOrFVmuK8SPc4UkOkxiCzbtM=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjjvTtPoHgEbFhdzL/rzqYlbEy78nllnVA1t9O94xyU=
+			n+FccxzjAqs9inAuCY562mjW/jRrX8QFIJskJ2pr8P8=
 			</data>
 		</dict>
 		<key>Modules/NBDeveloper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -287,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			58qPGEl698tHyOD+ZjsQDL1TNon+4dpBrt0PqJXXmDw=
+			T0l+2X29vueux4bDugclQwicZ/WCfdbaZ9Tmz89CDxs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

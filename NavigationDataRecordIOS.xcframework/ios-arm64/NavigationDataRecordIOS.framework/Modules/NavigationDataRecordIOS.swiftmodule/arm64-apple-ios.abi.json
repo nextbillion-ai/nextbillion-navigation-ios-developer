@@ -1338,6 +1338,85 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ReplayRawLocationEventModel",
+        "printedName": "ReplayRawLocationEventModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS27ReplayRawLocationEventModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS27ReplayRawLocationEventModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS27ReplayRawLocationEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS27ReplayRawLocationEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2018,6 +2097,85 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ReplaySummaryEventModel",
+        "printedName": "ReplaySummaryEventModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS23ReplaySummaryEventModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS23ReplaySummaryEventModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS23ReplaySummaryEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS23ReplaySummaryEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SummaryModel",
         "printedName": "SummaryModel",
         "children": [
@@ -2153,6 +2311,1438 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "RecordDataConstants",
+        "printedName": "RecordDataConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_ROUTE",
+            "printedName": "KEY_TAB_ROUTE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC13KEY_TAB_ROUTESSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_LOCATION",
+            "printedName": "KEY_TAB_LOCATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC16KEY_TAB_LOCATIONSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_SNAP_LOCATION",
+            "printedName": "KEY_TAB_SNAP_LOCATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_SNAP_LOCATIONSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_ALTERNATIVE_LOCATION",
+            "printedName": "KEY_TAB_ALTERNATIVE_LOCATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC28KEY_TAB_ALTERNATIVE_LOCATIONSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_BANNER",
+            "printedName": "KEY_TAB_BANNER",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_BANNERSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_REROUTE_REQ",
+            "printedName": "KEY_TAB_REROUTE_REQ",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_REROUTE_REQSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_REROUTE_RESP",
+            "printedName": "KEY_TAB_REROUTE_RESP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC20KEY_TAB_REROUTE_RESPSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_SPEECH",
+            "printedName": "KEY_TAB_SPEECH",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_SPEECHSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_SUMMARY",
+            "printedName": "KEY_TAB_SUMMARY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC15KEY_TAB_SUMMARYSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_REROUTE_ERROR",
+            "printedName": "KEY_TAB_REROUTE_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC21KEY_TAB_REROUTE_ERRORSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_EXTRAL",
+            "printedName": "KEY_TAB_EXTRAL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC14KEY_TAB_EXTRALSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_LIST",
+            "printedName": "KEY_TAB_LIST",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC12KEY_TAB_LISTSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "KEY_TAB_LIST_STATUS",
+            "printedName": "KEY_TAB_LIST_STATUS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC19KEY_TAB_LIST_STATUSSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_ROUTELINE_SHAPE_FORMAT",
+            "printedName": "DEFAULT_ROUTELINE_SHAPE_FORMAT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvpZ",
+            "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvpZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvgZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvgZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvsZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvsZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvMZ",
+                "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC30DEFAULT_ROUTELINE_SHAPE_FORMATSSvMZ",
+                "moduleName": "NavigationDataRecordIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS0cB9ConstantsC",
+        "mangledName": "$s23NavigationDataRecordIOS0cB9ConstantsC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2170,6 +3760,85 @@
         "moduleName": "NavigationDataRecordIOS"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ReplaySnapLocationEventModel",
+        "printedName": "ReplaySnapLocationEventModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS28ReplaySnapLocationEventModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS28ReplaySnapLocationEventModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS28ReplaySnapLocationEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS28ReplaySnapLocationEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2177,6 +3846,165 @@
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordDataItem",
+        "printedName": "RecordDataItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB4ItemC3keySSvp",
+            "mangledName": "$s23NavigationDataRecordIOS0cB4ItemC3keySSvp",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB4ItemC3keySSvg",
+                "mangledName": "$s23NavigationDataRecordIOS0cB4ItemC3keySSvg",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS0cB4ItemC4date10Foundation4DateVvp",
+            "mangledName": "$s23NavigationDataRecordIOS0cB4ItemC4date10Foundation4DateVvp",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS0cB4ItemC4date10Foundation4DateVvg",
+                "mangledName": "$s23NavigationDataRecordIOS0cB4ItemC4date10Foundation4DateVvg",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:date:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordDataItem",
+                "printedName": "NavigationDataRecordIOS.RecordDataItem",
+                "usr": "s:23NavigationDataRecordIOS0cB4ItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS0cB4ItemC3key4dateACSS_10Foundation4DateVtcfc",
+            "mangledName": "$s23NavigationDataRecordIOS0cB4ItemC3key4dateACSS_10Foundation4DateVtcfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS0cB4ItemC",
+        "mangledName": "$s23NavigationDataRecordIOS0cB4ItemC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2197,6 +4025,105 @@
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplayUploadModel",
+        "printedName": "ReplayUploadModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayUploadModel",
+                "printedName": "NavigationDataRecordIOS.ReplayUploadModel",
+                "usr": "s:23NavigationDataRecordIOS17ReplayUploadModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS17ReplayUploadModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NavigationDataRecordIOS17ReplayUploadModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS17ReplayUploadModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS17ReplayUploadModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS17ReplayUploadModelC",
+        "mangledName": "$s23NavigationDataRecordIOS17ReplayUploadModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -2245,6 +4172,85 @@
         "printedName": "MMKV",
         "declKind": "Import",
         "moduleName": "NavigationDataRecordIOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplayRouteEventDataModel",
+        "printedName": "ReplayRouteEventDataModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS016ReplayRouteEventB5ModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS016ReplayRouteEventB5ModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS016ReplayRouteEventB5ModelC",
+        "mangledName": "$s23NavigationDataRecordIOS016ReplayRouteEventB5ModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2422,13 +4428,82 @@
         "moduleName": "NavigationDataRecordIOS"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "ReplayRerouteErrorModel",
+        "printedName": "ReplayRerouteErrorModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS23ReplayRerouteErrorModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS23ReplayRerouteErrorModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS23ReplayRerouteErrorModelC",
+        "mangledName": "$s23NavigationDataRecordIOS23ReplayRerouteErrorModelC",
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -2439,6 +4514,583 @@
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplayReRouteRespEventModel",
+        "printedName": "ReplayReRouteRespEventModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayReRouteRespEventModel",
+                "printedName": "NavigationDataRecordIOS.ReplayReRouteRespEventModel",
+                "usr": "s:23NavigationDataRecordIOS27ReplayReRouteRespEventModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS27ReplayReRouteRespEventModelCACycfc",
+            "mangledName": "$s23NavigationDataRecordIOS27ReplayReRouteRespEventModelCACycfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayReRouteRespEventModel",
+                "printedName": "NavigationDataRecordIOS.ReplayReRouteRespEventModel",
+                "usr": "s:23NavigationDataRecordIOS27ReplayReRouteRespEventModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS27ReplayReRouteRespEventModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NavigationDataRecordIOS27ReplayReRouteRespEventModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS27ReplayReRouteRespEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS27ReplayReRouteRespEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseEvent",
+        "printedName": "BaseEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventC4typeSivp",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4typeSivp",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC4typeSivg",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4typeSivg",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC4typeSivs",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4typeSivs",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC4typeSivM",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4typeSivM",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "index",
+            "printedName": "index",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventC5indexSivp",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventC5indexSivp",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC5indexSivg",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC5indexSivg",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC5indexSivs",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC5indexSivs",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC5indexSivM",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC5indexSivM",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventC4times5Int64Vvp",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4times5Int64Vvp",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC4times5Int64Vvg",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4times5Int64Vvg",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC4times5Int64Vvs",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4times5Int64Vvs",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC4times5Int64VvM",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4times5Int64VvM",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offset",
+            "printedName": "offset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventC6offsets5Int64Vvp",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventC6offsets5Int64Vvp",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC6offsets5Int64Vvg",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC6offsets5Int64Vvg",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC6offsets5Int64Vvs",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC6offsets5Int64Vvs",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC6offsets5Int64VvM",
+                "mangledName": "$s23NavigationDataRecordIOS9BaseEventC6offsets5Int64VvM",
+                "moduleName": "NavigationDataRecordIOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseEvent",
+                "printedName": "NavigationDataRecordIOS.BaseEvent",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventCACycfc",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventCACycfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseEvent",
+                "printedName": "NavigationDataRecordIOS.BaseEvent",
+                "usr": "s:23NavigationDataRecordIOS9BaseEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS9BaseEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS9BaseEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "mangledName": "$s23NavigationDataRecordIOS9BaseEventC",
+        "moduleName": "NavigationDataRecordIOS",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -2500,6 +5152,85 @@
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplaySpeechEventModel",
+        "printedName": "ReplaySpeechEventModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS22ReplaySpeechEventModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS22ReplaySpeechEventModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS22ReplaySpeechEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS22ReplaySpeechEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -2619,6 +5350,105 @@
         "moduleName": "NavigationDataRecordIOS"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ReplayLocationModel",
+        "printedName": "ReplayLocationModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayLocationModel",
+                "printedName": "NavigationDataRecordIOS.ReplayLocationModel",
+                "usr": "s:23NavigationDataRecordIOS19ReplayLocationModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS19ReplayLocationModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NavigationDataRecordIOS19ReplayLocationModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS19ReplayLocationModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS19ReplayLocationModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS19ReplayLocationModelC",
+        "mangledName": "$s23NavigationDataRecordIOS19ReplayLocationModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2626,6 +5456,105 @@
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplayExtraModel",
+        "printedName": "ReplayExtraModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayExtraModel",
+                "printedName": "NavigationDataRecordIOS.ReplayExtraModel",
+                "usr": "s:23NavigationDataRecordIOS16ReplayExtraModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NavigationDataRecordIOS16ReplayExtraModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NavigationDataRecordIOS16ReplayExtraModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS16ReplayExtraModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS16ReplayExtraModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS16ReplayExtraModelC",
+        "mangledName": "$s23NavigationDataRecordIOS16ReplayExtraModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -2703,6 +5632,692 @@
         "printedName": "NbmapCoreNavigation",
         "declKind": "Import",
         "moduleName": "NavigationDataRecordIOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MMKVDataUtil",
+        "printedName": "MMKVDataUtil",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRouteData",
+            "printedName": "getRouteData(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayRouteEventDataModel",
+                "printedName": "NavigationDataRecordIOS.ReplayRouteEventDataModel",
+                "usr": "s:23NavigationDataRecordIOS016ReplayRouteEventB5ModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC08getRouteB010recordNameAA06Replayh5EventB5ModelCSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC08getRouteB010recordNameAA06Replayh5EventB5ModelCSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRecordData",
+            "printedName": "getRecordData(recordName:tabName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC03getcB010recordName03tabI0SayxGSS_SStSeRzSERzlFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC03getcB010recordName03tabI0SayxGSS_SStSeRzSERzlFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRecordLocationData",
+            "printedName": "getRecordLocationData(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC03getc8LocationB010recordNameSaySo10CLLocationCGSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC03getc8LocationB010recordNameSaySo10CLLocationCGSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRecordAlternativeLocationData",
+            "printedName": "getRecordAlternativeLocationData(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC03getc19AlternativeLocationB010recordNameSaySo10CLLocationCGSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC03getc19AlternativeLocationB010recordNameSaySo10CLLocationCGSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRecordData",
+            "printedName": "getRecordData(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC03getcB010recordName10Foundation0B0VSS_tKFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC03getcB010recordName10Foundation0B0VSS_tKFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveExtral",
+            "printedName": "saveExtral(language:shapeFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC10saveExtral8language11shapeFormatySS_SStFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC10saveExtral8language11shapeFormatySS_SStFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExtalData",
+            "printedName": "getExtalData(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplayExtraModel",
+                "printedName": "NavigationDataRecordIOS.ReplayExtraModel",
+                "usr": "s:23NavigationDataRecordIOS16ReplayExtraModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC08getExtalB010recordNameAA16ReplayExtraModelCSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC08getExtalB010recordNameAA16ReplayExtraModelCSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRecordListData",
+            "printedName": "getRecordListData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NavigationDataRecordIOS.RecordDataItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordDataItem",
+                    "printedName": "NavigationDataRecordIOS.RecordDataItem",
+                    "usr": "s:23NavigationDataRecordIOS0cB4ItemC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC03getc4ListB0SayAA0cB4ItemCGyFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC03getc4ListB0SayAA0cB4ItemCGyFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRecordListStatus",
+            "printedName": "getRecordListStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC03getC10ListStatusSaySSGyFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC03getC10ListStatusSaySSGyFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updataRecordListStatus",
+            "printedName": "updataRecordListStatus(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC06updataC10ListStatus10recordNameySS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC06updataC10ListStatus10recordNameySS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPrimaryRoutData",
+            "printedName": "getPrimaryRoutData(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NbmapCoreNavigation.Route?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Route",
+                    "printedName": "NbmapCoreNavigation.Route",
+                    "usr": "c:@M@NbmapCoreNavigation@objc(cs)NBNavRoute"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC014getPrimaryRoutB010recordName09NbmapCoreA05RouteCSgSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC014getPrimaryRoutB010recordName09NbmapCoreA05RouteCSgSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDictionaryFromJSONString",
+            "printedName": "getDictionaryFromJSONString(jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC27getDictionaryFromJSONString10jsonStringSo12NSDictionaryCSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC27getDictionaryFromJSONString10jsonStringSo12NSDictionaryCSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getReplayRerouteData",
+            "printedName": "getReplayRerouteData(recordName:index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NbmapCoreNavigation.Route?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Route",
+                    "printedName": "NbmapCoreNavigation.Route",
+                    "usr": "c:@M@NbmapCoreNavigation@objc(cs)NBNavRoute"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC016getReplayRerouteB010recordName5index09NbmapCoreA05RouteCSgSS_SitFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC016getReplayRerouteB010recordName5index09NbmapCoreA05RouteCSgSS_SitFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getReplayReroutRequestCollection",
+            "printedName": "getReplayReroutRequestCollection(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC32getReplayReroutRequestCollection10recordNameSaySo10CLLocationCGSS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC32getReplayReroutRequestCollection10recordNameSaySo10CLLocationCGSS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteRecord",
+            "printedName": "deleteRecord(recordName:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC06deleteC010recordName3keyySS_SStFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC06deleteC010recordName3keyySS_SStFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetRecordState",
+            "printedName": "resetRecordState(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC05resetC5State10recordNameySS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC05resetC5State10recordNameySS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveToMMKV",
+            "printedName": "saveToMMKV(data:recordName:typeName:index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC10saveToMMKV4data10recordName04typeL05indexyx_S2SSitSeRzSERzlFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC10saveToMMKV4data10recordName04typeL05indexyx_S2SSitSeRzSERzlFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appendImportRecordToList",
+            "printedName": "appendImportRecordToList(recordName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC012appendImportC6ToList10recordNameySS_tFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC012appendImportC6ToList10recordNameySS_tFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stringConvertDate",
+            "printedName": "stringConvertDate(string:dateFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC17stringConvertDate0G010dateFormat10Foundation0I0VSS_SStFZ",
+            "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC17stringConvertDate0G010dateFormat10Foundation0I0VSS_SStFZ",
+            "moduleName": "NavigationDataRecordIOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS12MMKVDataUtilC",
+        "mangledName": "$s23NavigationDataRecordIOS12MMKVDataUtilC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3549,6 +7164,85 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ReplayReRouteReqEventModel",
+        "printedName": "ReplayReRouteReqEventModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS26ReplayReRouteReqEventModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS26ReplayReRouteReqEventModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS26ReplayReRouteReqEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS26ReplayReRouteReqEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3610,6 +7304,85 @@
         "moduleName": "NavigationDataRecordIOS",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplayBannerUpdateEventModel",
+        "printedName": "ReplayBannerUpdateEventModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NavigationDataRecordIOS28ReplayBannerUpdateEventModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NavigationDataRecordIOS28ReplayBannerUpdateEventModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NavigationDataRecordIOS",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NavigationDataRecordIOS28ReplayBannerUpdateEventModelC",
+        "mangledName": "$s23NavigationDataRecordIOS28ReplayBannerUpdateEventModelC",
+        "moduleName": "NavigationDataRecordIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NavigationDataRecordIOS9BaseEventC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NavigationDataRecordIOS.BaseEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -4704,14 +8477,14 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplaySummaryEventModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2085,
+      "offset": 2099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplaySummaryEventModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2127,
+      "offset": 2141,
       "length": 1,
       "value": "0"
     },
@@ -4830,161 +8603,161 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 247,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 275,
+      "offset": 296,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 325,
+      "offset": 353,
       "length": 15,
       "value": "\"snap_location\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 422,
       "length": 26,
       "value": "\"alternative_raw_location\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 488,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 541,
       "length": 13,
       "value": "\"reroute_req\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 600,
       "length": 14,
       "value": "\"reroute_resp\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 654,
       "length": 8,
       "value": "\"speech\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 703,
       "length": 9,
       "value": "\"summary\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 759,
       "length": 15,
       "value": "\"reroute_error\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 814,
       "length": 8,
       "value": "\"extral\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 865,
       "length": 13,
       "value": "\"record_list\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 923,
       "length": 20,
       "value": "\"record_list_status\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/constant\/RecordDataConstants.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 1004,
       "length": 11,
       "value": "\"polyline6\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2538,
+      "offset": 2552,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2575,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "StringLiteral",
-      "offset": 2585,
+      "offset": 2599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2607,
+      "offset": 2621,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2635,
+      "offset": 2649,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2658,
+      "offset": 2672,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2679,
+      "offset": 2693,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2700,
+      "offset": 2714,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRouteEventDataModel.swift",
       "kind": "StringLiteral",
-      "offset": 2808,
+      "offset": 2822,
       "length": 4,
       "value": "\"en\""
     },
@@ -5075,175 +8848,175 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayRerouteErrorModel.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1188,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/BaseEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 204,
+      "offset": 216,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/BaseEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/BaseEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 251,
+      "offset": 277,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/BaseEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 282,
+      "offset": 315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplaySpeechEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1154,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "FloatLiteral",
-      "offset": 257,
+      "offset": 264,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "FloatLiteral",
-      "offset": 290,
+      "offset": 297,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "FloatLiteral",
-      "offset": 322,
+      "offset": 329,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "FloatLiteral",
-      "offset": 351,
+      "offset": 358,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "FloatLiteral",
-      "offset": 382,
+      "offset": 389,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 413,
+      "offset": 420,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "FloatLiteral",
-      "offset": 465,
+      "offset": 472,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 492,
+      "offset": 499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 526,
+      "offset": 533,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 573,
+      "offset": 580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 612,
+      "offset": 619,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayLocationModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 649,
+      "offset": 656,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayExtraModel.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 238,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayExtraModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 263,
+      "offset": 270,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayExtraModel.swift",
       "kind": "StringLiteral",
-      "offset": 296,
+      "offset": 303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayExtraModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 336,
+      "offset": 343,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayExtraModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 388,
+      "offset": 395,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayExtraModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 433,
+      "offset": 440,
       "length": 2,
       "value": "-1"
     },
@@ -5257,7 +9030,7 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/utils\/MMKVDataUtil.swift",
       "kind": "StringLiteral",
-      "offset": 16689,
+      "offset": 16746,
       "length": 21,
       "value": "\"yyyy_MM_dd_HH_mm_ss\""
     },
@@ -5411,84 +9184,84 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayReRouteReqEventModel.swift",
       "kind": "FloatLiteral",
-      "offset": 1481,
+      "offset": 1495,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 2688,
+      "offset": 2702,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 2719,
+      "offset": 2733,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 2768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 2789,
+      "offset": 2803,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2823,
+      "offset": 2837,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2934,
+      "offset": 2948,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2970,
+      "offset": 2984,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 3004,
+      "offset": 3018,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 3034,
+      "offset": 3048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3074,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/navigation-app-ios\/NavigationDataRecordIOS\/NavigationDataTracking\/model\/ReplayBannerUpdateEventModel.swift",
       "kind": "Array",
-      "offset": 3095,
+      "offset": 3109,
       "length": 2,
       "value": "[]"
     },

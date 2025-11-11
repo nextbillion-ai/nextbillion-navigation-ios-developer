@@ -55,6 +55,10 @@ public protocol NavigationDateImportStateDelegate {
   func importSucess()
   func importFailed(reason: Swift.String)
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayRawLocationEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 @objc(NBReplayLocationManager) open class NavReplayLocationManager : NbmapCoreNavigation.NavigationLocationManager {
   @objc public var speedMultiplier: Swift.Double
   weak public var serviceDelegate: (any NbmapCoreNavigation.NavigationServiceDelegate)?
@@ -70,10 +74,50 @@ public protocol NavigationDateImportStateDelegate {
   @objc override dynamic open func startUpdatingLocation()
   @objc override dynamic open func stopUpdatingLocation()
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplaySummaryEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class SummaryModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class RecordDataConstants {
+  public static var KEY_TAB_ROUTE: Swift.String
+  public static var KEY_TAB_LOCATION: Swift.String
+  public static var KEY_TAB_SNAP_LOCATION: Swift.String
+  public static var KEY_TAB_ALTERNATIVE_LOCATION: Swift.String
+  public static var KEY_TAB_BANNER: Swift.String
+  public static var KEY_TAB_REROUTE_REQ: Swift.String
+  public static var KEY_TAB_REROUTE_RESP: Swift.String
+  public static var KEY_TAB_SPEECH: Swift.String
+  public static var KEY_TAB_SUMMARY: Swift.String
+  public static var KEY_TAB_REROUTE_ERROR: Swift.String
+  public static var KEY_TAB_EXTRAL: Swift.String
+  public static var KEY_TAB_LIST: Swift.String
+  public static var KEY_TAB_LIST_STATUS: Swift.String
+  public static var DEFAULT_ROUTELINE_SHAPE_FORMAT: Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplaySnapLocationEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class RecordDataItem {
+  final public let key: Swift.String
+  final public let date: Foundation.Date
+  public init(key: Swift.String, date: Foundation.Date)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ReplayUploadModel : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayRouteEventDataModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
 open class SwiftNavigationData : NavigationDataRecordIOS.NavigationDataDelegate {
   public init()
@@ -81,13 +125,68 @@ open class SwiftNavigationData : NavigationDataRecordIOS.NavigationDataDelegate 
   public func importFile(recordName: Swift.String, delegate: (any NavigationDataRecordIOS.NavigationDateImportStateDelegate)?)
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayRerouteErrorModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class ReplayReRouteRespEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public init()
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+open class BaseEvent : Swift.Codable {
+  public var type: Swift.Int
+  public var index: Swift.Int
+  public var time: Swift.CLongLong
+  public var offset: Swift.CLongLong
+  public init()
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NavigationDataLocationObserver : NavigationDataRecordIOS.BaseReplayObserver {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplaySpeechEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SpeechEventModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ReplayLocationModel : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ReplayExtraModel : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class MMKVDataUtil {
+  public static func getRouteData(recordName: Swift.String) -> NavigationDataRecordIOS.ReplayRouteEventDataModel
+  public static func getRecordData<T>(recordName: Swift.String, tabName: Swift.String) -> [T] where T : Swift.Decodable, T : Swift.Encodable
+  public static func getRecordLocationData(recordName: Swift.String) -> [CoreLocation.CLLocation]
+  public static func getRecordAlternativeLocationData(recordName: Swift.String) -> [CoreLocation.CLLocation]
+  public static func getRecordData(recordName: Swift.String) throws -> Foundation.Data
+  public static func saveExtral(language: Swift.String, shapeFormat: Swift.String)
+  public static func getExtalData(recordName: Swift.String) -> NavigationDataRecordIOS.ReplayExtraModel
+  public static func getRecordListData() -> [NavigationDataRecordIOS.RecordDataItem]
+  public static func getRecordListStatus() -> [Swift.String]
+  public static func updataRecordListStatus(recordName: Swift.String)
+  public static func getPrimaryRoutData(recordName: Swift.String) -> NbmapCoreNavigation.Route?
+  public static func getDictionaryFromJSONString(jsonString: Swift.String) -> Foundation.NSDictionary
+  public static func getReplayRerouteData(recordName: Swift.String, index: Swift.Int) -> NbmapCoreNavigation.Route?
+  public static func getReplayReroutRequestCollection(recordName: Swift.String) -> [CoreLocation.CLLocation]
+  public static func deleteRecord(recordName: Swift.String, key: Swift.String)
+  public static func resetRecordState(recordName: Swift.String)
+  public static func saveToMMKV<T>(data: T, recordName: Swift.String, typeName: Swift.String, index: Swift.CLong) where T : Swift.Decodable, T : Swift.Encodable
+  public static func appendImportRecordToList(recordName: Swift.String)
+  public static func stringConvertDate(string: Swift.String, dateFormat: Swift.String = "yyyy_MM_dd_HH_mm_ss") -> Foundation.Date
+  @objc deinit
 }
 open class ReplayNavigationEventTracking : NbmapCoreNavigation.NavigationEventTracking {
   public init()
@@ -112,6 +211,14 @@ open class ReplayNavigationEventTracking : NbmapCoreNavigation.NavigationEventTr
   public func importFile(recordName: Swift.String, importDelegate: any NavigationDataRecordIOS.NavigationDateImportStateDelegate)
   public func getJsonString<T>(obj: T) -> Swift.String where T : Swift.Decodable, T : Swift.Encodable
   public static func pushToRecordPage(navigationController: UIKit.UINavigationController?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayReRouteReqEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayBannerUpdateEventModel : NavigationDataRecordIOS.BaseEvent {
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class BannerUpdateEventModel : Swift.Codable {
